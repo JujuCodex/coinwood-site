@@ -1,0 +1,12 @@
+{
+  "name": "CoinWood",
+  "symbol": "CWD",
+  "description": "CoinWood ($CWD) is a Solana Token-2022 with a built-in 4% eco-fee: every transaction funds verified reforestation with Tree-Nation. 1.5% reforestation, 1% liquidity, 1% marketing, 0.5% buyback & burn.",
+  "image": "https://coinwood.org/assets/coinwood.png",
+  "external_url": "https://coinwood.org",
+  "attributes": [
+    { "trait_type": "Standard", "value": "Token-2022" },
+    { "trait_type": "Eco-fee", "value": "4%" },
+    { "trait_type": "Supply", "value": "10,000,000,000 (fixed)" }
+  ]
+}
