@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoinWood ($CWD) — The cryptocurrency that plants trees</title>
+  <meta name="description" content="CoinWood ($CWD) is a Solana Token-2022 with a built-in eco-fee: every transaction funds verified reforestation with Tree-Nation.">
+  <meta property="og:title" content="CoinWood ($CWD) — The cryptocurrency that plants trees">
+  <meta property="og:description" content="A Solana token where 4% of every transaction funds verified reforestation.">
+  <meta property="og:image" content="https://coinwood.org/assets/coinwood.png">
+  <meta property="og:url" content="https://coinwood.org/">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="#top" class="brand">
+      <img src="assets/coinwood.png" alt="CoinWood logo" class="brand-logo">
+      <span class="brand-name">CoinWood</span>
+    </a>
+    <button class="nav-burger" id="navBurger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="#how" data-i18n="nav.how">How it works</a>
+      <a href="#tokenomics" data-i18n="nav.tokenomics">Tokenomics</a>
+      <a href="#roadmap" data-i18n="nav.roadmap">Roadmap</a>
+      <a href="#transparency" data-i18n="nav.transparency">Transparency</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">FR</button>
+      <a href="#community" class="btn btn-primary btn-sm" data-i18n="nav.join">Join us</a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="badge" data-i18n="hero.badge">🌱 Relaunch 2026 — presale coming soon</span>
+        <h1 data-i18n="hero.title">The cryptocurrency that plants trees</h1>
+        <p class="lead" data-i18n="hero.sub">CoinWood ($CWD) is a Solana token with a built-in eco-fee: 4% of every transaction funds verified reforestation with our partner Tree-Nation. No promises — on-chain proof.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="https://t.me/+czJ6PI35bVQ5Yzlk" target="_blank" rel="noopener" data-i18n="hero.cta1">Join the Telegram</a>
+          <a class="btn btn-ghost" href="https://x.com/CoinWoodCWD" target="_blank" rel="noopener" data-i18n="hero.cta2">Follow on X</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>10B</dt><dd data-i18n="hero.stat1">fixed supply</dd></div>
+          <div><dt>4%</dt><dd data-i18n="hero.stat2">eco-fee per transaction</dd></div>
+          <div><dt>1.5%</dt><dd data-i18n="hero.stat3">goes to planting trees</dd></div>
+        </dl>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <img src="assets/coinwood.png" alt="" class="hero-logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section id="how" class="section">
+    <div class="container">
+      <h2 data-i18n="how.title">How it works</h2>
+      <p class="section-intro" data-i18n="how.intro">The eco-fee is enforced by Solana's official Token-2022 standard — by the blockchain itself, not by custom code. Every transfer of $CWD automatically sets aside 4%, redistributed every week from a public multisig treasury.</p>
+      <div class="cards-4">
+        <article class="card">
+          <div class="card-num">1</div>
+          <h3 data-i18n="how.s1t">You trade $CWD</h3>
+          <p data-i18n="how.s1p">Buy, sell or transfer $CWD on Solana. A 4% fee is withheld automatically by the token program on each transfer.</p>
+        </article>
+        <article class="card">
+          <div class="card-num">2</div>
+          <h3 data-i18n="how.s2t">The fee is split</h3>
+          <p data-i18n="how.s2p">1.5% reforestation fund, 1% liquidity pool, 1% marketing, 0.5% buyback &amp; burn.</p>
+        </article>
+        <article class="card">
+          <div class="card-num">3</div>
+          <h3 data-i18n="how.s3t">Weekly distribution</h3>
+          <p data-i18n="how.s3p">Withheld fees are harvested every week to a transparent multisig treasury. Every movement is public and verifiable on-chain.</p>
+        </article>
+        <article class="card">
+          <div class="card-num">4</div>
+          <h3 data-i18n="how.s4t">Trees get planted</h3>
+          <p data-i18n="how.s4p">The reforestation fund buys real trees through Tree-Nation. Each planting is certified and visible in the public CoinWood forest.</p>
+        </article>
+      </div>
+      <div class="fee-bar-wrap">
+        <h3 class="fee-bar-title" data-i18n="how.feetitle">Where the 4% goes</h3>
+        <div class="fee-bar" role="img" aria-label="4% fee split: 1.5% reforestation, 1% liquidity, 1% marketing, 0.5% buyback and burn">
+          <div class="fee-seg" style="flex-grow:15; background:var(--c-refo)"><span>1.5%</span></div>
+          <div class="fee-seg" style="flex-grow:10; background:var(--c-liq)"><span>1%</span></div>
+          <div class="fee-seg" style="flex-grow:10; background:var(--c-mkt)"><span>1%</span></div>
+          <div class="fee-seg" style="flex-grow:5; background:var(--c-burn)"><span>0.5%</span></div>
+        </div>
+        <ul class="fee-legend">
+          <li><i style="background:var(--c-refo)"></i><span data-i18n="how.fee1">Reforestation fund</span></li>
+          <li><i style="background:var(--c-liq)"></i><span data-i18n="how.fee2">Liquidity pool</span></li>
+          <li><i style="background:var(--c-mkt)"></i><span data-i18n="how.fee3">Marketing</span></li>
+          <li><i style="background:var(--c-burn)"></i><span data-i18n="how.fee4">Buyback &amp; burn</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TOKENOMICS ============ -->
+  <section id="tokenomics" class="section section-alt">
+    <div class="container">
+      <h2 data-i18n="tok.title">Tokenomics</h2>
+      <p class="section-intro" data-i18n="tok.intro">10 billion $CWD, fixed supply — the mint authority is revoked at launch, so not a single extra token can ever be created.</p>
+      <div class="tok-grid">
+        <div class="donut-wrap">
+          <svg id="donut" viewBox="0 0 320 320" role="img" aria-label="Token allocation donut chart"></svg>
+          <div class="donut-center">
+            <strong>10B</strong>
+            <span>$CWD</span>
+          </div>
+          <div class="donut-tip" id="donutTip" hidden></div>
+        </div>
+        <div class="tok-side">
+          <ul class="tok-legend" id="tokLegend"></ul>
+        </div>
+      </div>
+      <details class="tok-table-details">
+        <summary data-i18n="tok.tableToggle">View as table</summary>
+        <table class="tok-table">
+          <thead>
+            <tr><th data-i18n="tok.thCat">Category</th><th data-i18n="tok.thAlloc">Allocation</th><th data-i18n="tok.thNote">Purpose &amp; safeguards</th></tr>
+          </thead>
+          <tbody id="tokTableBody"></tbody>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ ROADMAP ============ -->
+  <section id="roadmap" class="section">
+    <div class="container">
+      <h2 data-i18n="road.title">Roadmap</h2>
+      <ol class="timeline">
+        <li class="tl-item is-current">
+          <div class="tl-when" data-i18n="road.p1w">Q3 2026 — Relaunch</div>
+          <ul>
+            <li data-i18n="road.p1a">New $CWD contract on Solana Token-2022 (native eco-fee)</li>
+            <li data-i18n="road.p1b">New website, updated whitepaper</li>
+            <li data-i18n="road.p1c">Multisig treasury &amp; team vesting locked before any sale</li>
+          </ul>
+        </li>
+        <li class="tl-item">
+          <div class="tl-when" data-i18n="road.p2w">Q4 2026 — Presale &amp; listing</div>
+          <ul>
+            <li data-i18n="road.p2a">Public presale on a launchpad with buyer vesting</li>
+            <li data-i18n="road.p2b">Raydium listing, liquidity locked 12 months</li>
+            <li data-i18n="road.p2c">First trees planted with presale proceeds</li>
+          </ul>
+        </li>
+        <li class="tl-item">
+          <div class="tl-when" data-i18n="road.p3w">Q1 2027 — Growth</div>
+          <ul>
+            <li data-i18n="road.p3a">Staking live with $CWD rewards</li>
+            <li data-i18n="road.p3b">Monthly public planting reports (Tree-Nation certificates)</li>
+            <li data-i18n="road.p3c">CoinGecko &amp; CoinMarketCap applications</li>
+          </ul>
+        </li>
+        <li class="tl-item">
+          <div class="tl-when" data-i18n="road.p4w">2027 — Governance</div>
+          <ul>
+            <li data-i18n="road.p4a">Community DAO to steer the reforestation fund</li>
+            <li data-i18n="road.p4b">GreenPass NFT with staking boosts</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ TRANSPARENCY ============ -->
+  <section id="transparency" class="section section-alt">
+    <div class="container">
+      <h2 data-i18n="tr.title">Transparency, not promises</h2>
+      <div class="cards-3">
+        <article class="card">
+          <h3 data-i18n="tr.c1t">🔒 Standard code only</h3>
+          <p data-i18n="tr.c1p">$CWD uses Solana's official Token-2022 program — no custom smart contract, nothing exotic to audit. The eco-fee, the fixed supply and the fee cap are enforced by the same code that secures the whole Solana ecosystem.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="tr.c2t">🏛️ Public treasury</h3>
+          <p data-i18n="tr.c2p">Collected fees land in a multisig treasury. Weekly distributions (trees, liquidity, burn) are published and verifiable by anyone, on-chain.</p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="tr.c3t">🌳 Certified planting</h3>
+          <p data-i18n="tr.c3p">Trees are planted through Tree-Nation, with public certificates in the CoinWood forest. Impact you can click, not a slide in a deck.</p>
+        </article>
+      </div>
+      <div class="contract-box">
+        <span class="contract-label" data-i18n="tr.contract">$CWD contract address (Token-2022)</span>
+        <code id="contractAddr" data-i18n="tr.tba">Announced at relaunch — beware of imitations, only trust this page</code>
+      </div>
+      <p class="tr-link"><a href="https://tree-nation.com/fr/profil/coin-wood" target="_blank" rel="noopener" data-i18n="tr.forest">→ Visit the CoinWood forest on Tree-Nation</a></p>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section id="faq" class="section">
+    <div class="container container-narrow">
+      <h2>FAQ</h2>
+      <details class="faq-item">
+        <summary data-i18n="faq.q1">What is CoinWood?</summary>
+        <p data-i18n="faq.a1">CoinWood ($CWD) is a token on the Solana blockchain whose core mechanism funds reforestation: 4% of every transaction is automatically set aside, and the largest share buys real, certified trees through Tree-Nation.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq.q2">How can I trust the eco-fee?</summary>
+        <p data-i18n="faq.a2">The fee is a native feature of Solana's Token-2022 standard, enforced by the blockchain itself. Collected fees go to a public multisig treasury, and every distribution is visible on-chain. Tree plantings are certified by Tree-Nation on a public page.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq.q3">When is the presale?</summary>
+        <p data-i18n="faq.a3">The public presale opens after the relaunch, on an established launchpad with buyer vesting and automatic liquidity locking. Dates are announced on Telegram and X first — from these official accounts only.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq.q4">Is the contract audited?</summary>
+        <p data-i18n="faq.a4">There is nothing custom to audit: $CWD deliberately uses only standard, battle-tested Solana programs (Token-2022, established vesting and locking services). We prefer verifiable facts to audit badges.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq.q5">What happened to the 2025 token?</summary>
+        <p data-i18n="faq.a5">A first version of $CWD was deployed in March 2025 on the classic SPL standard, which cannot carry an on-chain eco-fee. It was never sold or listed. The relaunch uses a new Token-2022 contract so the eco-fee is enforced by the blockchain — the old address is deprecated.</p>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq.q6">Is $CWD an investment?</summary>
+        <p data-i18n="faq.a6">$CWD is a utility token supporting a reforestation ecosystem. Cryptocurrencies are volatile and you can lose what you put in. Nothing on this site is financial advice — never spend money you cannot afford to lose.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ COMMUNITY ============ -->
+  <section id="community" class="section section-cta">
+    <div class="container container-narrow center">
+      <h2 data-i18n="cta.title">Plant the first seed</h2>
+      <p data-i18n="cta.sub">The relaunch is being built in the open, with the community. Join us — the earliest members shape the project and the airdrops.</p>
+      <div class="hero-ctas center">
+        <a class="btn btn-primary" href="https://t.me/+czJ6PI35bVQ5Yzlk" target="_blank" rel="noopener">Telegram</a>
+        <a class="btn btn-ghost" href="https://x.com/CoinWoodCWD" target="_blank" rel="noopener">X / Twitter</a>
+        <a class="btn btn-ghost" href="https://tree-nation.com/fr/profil/coin-wood" target="_blank" rel="noopener" data-i18n="cta.forest">Our forest 🌳</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 CoinWood — <span data-i18n="foot.tag">Green DeFi on Solana</span></p>
+    <p class="disclaimer" data-i18n="foot.disclaimer">Cryptocurrencies are highly volatile and risky. Nothing on this site constitutes financial, investment or tax advice. Do your own research and never invest money you cannot afford to lose.</p>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
