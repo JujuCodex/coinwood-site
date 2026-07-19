@@ -19,6 +19,8 @@
       if (val.indexOf("&") !== -1) { el.innerHTML = val; } else { el.textContent = val; }
     });
     document.getElementById("langToggle").textContent = lang === "en" ? "FR" : "EN";
+    var wp = document.getElementById("wpLink");
+    if (wp) { wp.href = lang === "fr" ? "whitepaper-fr.pdf" : "whitepaper-en.pdf"; }
     renderLegendAndTable();
   }
 
