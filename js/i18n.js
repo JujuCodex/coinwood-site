@@ -79,7 +79,7 @@ window.I18N = {
     "tr.c3t": "🌳 Certified planting",
     "tr.c3p": "Trees are planted through Tree-Nation, with public certificates in the CoinWood forest. Impact you can click, not a slide in a deck.",
     "tr.contract": "$CWD contract address (Token-2022)",
-    "tr.tba": "Announced at relaunch — beware of imitations, only trust this page",
+    "tr.verify": "Verify on Solscan (fixed supply, 4% fee) →",
     "tr.forest": "→ Visit the CoinWood forest on Tree-Nation",
 
     "faq.q1": "What is CoinWood?",
@@ -182,7 +182,7 @@ window.I18N = {
     "tr.c3t": "🌳 Plantation certifiée",
     "tr.c3p": "Les arbres sont plantés via Tree-Nation, avec des certificats publics dans la forêt CoinWood. Un impact cliquable, pas une slide de présentation.",
     "tr.contract": "Adresse du contrat $CWD (Token-2022)",
-    "tr.tba": "Annoncée à la relance — méfiez-vous des imitations, ne faites confiance qu'à cette page",
+    "tr.verify": "Vérifier sur Solscan (supply fixe, taxe 4 %) →",
     "tr.forest": "→ Visiter la forêt CoinWood sur Tree-Nation",
 
     "faq.q1": "Qu'est-ce que CoinWood ?",
